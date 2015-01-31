@@ -1,0 +1,39 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x416)
+    Vendor:   Intel
+    VRAM:     896 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Projects\unity-networking-tutorial\client_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Projects\unity-networking-tutorial\client_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Projects\unity-networking-tutorial\client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Projects\unity-networking-tutorial\client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Projects\unity-networking-tutorial\client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Projects\unity-networking-tutorial\client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.041 seconds
+desktop: 1280x1024 60Hz; virtual: 1280x1024 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Projects\unity-networking-tutorial\client_Data\Managed\System.Core.dll (this message is harmless)
+Null
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Received pong from 128.12.135.44:25000
+ 
+(Filename:  Line: 836)
+
+Received pong from 192.168.74.1:25000
+ 
+(Filename:  Line: 836)
+
+Received pong from 192.168.56.1:25000
+ 
+(Filename:  Line: 836)
+
+Received pong from 169.254.92.82:25000
+ 
+(Filename:  Line: 836)
+
