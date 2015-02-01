@@ -12,11 +12,12 @@ Platform assembly: C:\Projects\unity-networking-tutorial\client_Data\Managed\Ass
 Loading C:\Projects\unity-networking-tutorial\client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Projects\unity-networking-tutorial\client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Projects\unity-networking-tutorial\client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.041 seconds
+- Completed reload, in  0.057 seconds
 desktop: 1280x1024 60Hz; virtual: 1280x1024 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Projects\unity-networking-tutorial\client_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Projects\unity-networking-tutorial\client_Data\Managed\System.dll (this message is harmless)
 Null
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)

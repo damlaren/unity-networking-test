@@ -72,10 +72,12 @@ public class NetworkManager : MonoBehaviour {
 		Network.Connect(hostData);
 	}
 
+	private float startX = -3.0f;
 	private void SpawnPlayer()
 	{
 		// Instantiate a prefab on all clients, with a specific position and orientation.
-		Network.Instantiate(playerPrefab, new Vector3(0f, 5f, 0f), Quaternion.identity, 0);
+		Network.Instantiate(playerPrefab, new Vector3(startX, 5f, 0f), Quaternion.identity, 0);
+		startX += 2.0f;
 	}
 
 	// Invoked once connected to server

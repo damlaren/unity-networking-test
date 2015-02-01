@@ -1,9 +1,25 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Player : MonoBehaviour
 {
 	public float speed = 10f;
+	public int score = 0;
+
+	// Pick up loot when player collides with it
+	void OnCollisionEnter (Collision col)
+	{
+		if (networkView.isMine) {
+			if (col.gameObject.name == "LootPrefab") {
+					// Loot will destroy itself on collision.
+					// Increment this Player's score.
+					score++;
+					Text t = GameObject.Find ("ScoreText").GetComponent<Text> ();
+					t.text = "Score: " + score;
+			}
+		}
+	}
 	
 	void Update()
 	{
