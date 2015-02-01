@@ -3,8 +3,8 @@ using System.Collections;
 
 public class NetworkManager : MonoBehaviour {
 
-	private const string typeName = "UniqueGameName";
-	private const string gameName = "RoomName";
+	private const string typeName = "LootTest";
+	private const string gameName = "LootTest";
 
 	// List of hosts retrieved from master server.
 	private HostData[] hostList;
